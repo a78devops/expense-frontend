@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     tags:
-      - *
+      - "*"
 jobs:
   call-release-reusable:
     uses: a78devops/github-reusable-workflows/.github/workflows/release.yml@main
